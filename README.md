@@ -6,6 +6,8 @@
 npm i -D tslint-config-codingwise
 ```
 
+* requires `npm i -D tslint`
+
 ## Config
 
 ```json
