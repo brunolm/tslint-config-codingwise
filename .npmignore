@@ -1,0 +1,7 @@
+.DS_Store
+node_modules/
+prettier.json
+.editorconfig
+tslint.json
+src/
+tslint-*.tgz

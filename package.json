@@ -1,0 +1,34 @@
+{
+  "name": "tslint-config-codingwise",
+  "version": "0.0.1",
+  "description": "tslint config based on recommended with a few overrides",
+  "main": "dist/tslint.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunolm/tslint-config-codingwise.git"
+  },
+  "keywords": [
+    "tslint",
+    "config",
+    "typescript",
+    "ts"
+  ],
+  "author": {
+    "name": "Bruno Leonardo Michels",
+    "email": "brunolm7@gmail.com",
+    "url": "http://codingwise.com/"
+  },
+  "license": "ISC",
+  "peerDependencies": {
+    "tslint": ">4.0.0"
+  },
+  "dependencies": {
+    "tslint-config-prettier": "^1.13.0"
+  },
+  "devDependencies": {
+    "typescript": "^2.9.2"
+  }
+}
