@@ -1,6 +1,6 @@
 {
   "name": "tslint-config-codingwise",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "tslint config based on recommended with a few overrides",
   "main": "dist/tslint.json",
   "scripts": {
