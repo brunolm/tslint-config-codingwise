@@ -1,6 +1,5 @@
 {
-  "extends": ["tslint:recommended", "tslint-config-prettier"],
-  "rulesDirectory": "codelyzer",
+  "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"],
   "rules": {
     "cyclomatic-complexity": [true, 10],
     "interface-name": false,

@@ -10,9 +10,28 @@ npm i -D tslint-config-codingwise
 
 ## Config
 
+### Node
+
 ```json
 {
     "extends": "tslint-config-codingwise"
+}
+```
+
+### Angular
+
+```json
+{
+    "extends": "tslint-config-codingwise/angular"
+}
+```
+
+### React
+
+
+```json
+{
+    "extends": "tslint-config-codingwise/react"
 }
 ```
 
