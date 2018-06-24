@@ -2,7 +2,7 @@
   "extends": ["tslint:recommended", "tslint-config-prettier"],
   "rulesDirectory": "codelyzer",
   "rules": {
-    "cyclomatic-complexity": [true, 10],
+    "cyclomatic-complexity": [true, 20],
     "interface-name": false,
     "member-access": [true],
     "member-ordering": [
@@ -19,8 +19,6 @@
     "newline-before-return": true,
     "no-bitwise": false,
     "no-conditional-assignment": false,
-    "no-magic-numbers": true,
-    "no-non-null-assertion": true,
     "no-unused-variable": true,
     "object-literal-sort-keys": false,
     "prefer-object-spread": true,
