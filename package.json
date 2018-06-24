@@ -2,8 +2,10 @@
   "name": "tslint-config-codingwise",
   "version": "0.0.1",
   "description": "tslint config based on recommended with a few overrides",
-  "main": "dist/tslint.js",
-  "scripts": {},
+  "main": "dist/tslint.json",
+  "scripts": {
+    "build": "tsc"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/brunolm/tslint-config-codingwise.git"
@@ -24,7 +26,9 @@
     "tslint": ">4.0.0"
   },
   "dependencies": {
-    "tslint-config-prettier": "^1.13.0"
+    "codelyzer": "^4.4.1",
+    "tslint-config-prettier": "^1.13.0",
+    "tslint-react": "^3.6.0"
   },
   "devDependencies": {
     "typescript": "^2.9.2"

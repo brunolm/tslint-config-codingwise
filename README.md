@@ -19,6 +19,8 @@ npm i -D tslint-config-codingwise
 ## Rules
 
 - [tslint:recommended](https://github.com/palantir/tslint/blob/2b8a7374cf0fa28e85d95beb40aafd7cb011d157/src/configs/recommended.ts)
+- [tslint:react](https://github.com/palantir/tslint-react/blob/master/tslint-react.json)
+- [tslint:codelyzer](https://github.com/mgechev/codelyzer)
 - [tslint:prettier](https://github.com/alexjoverm/tslint-config-prettier)
 
 Overrides
@@ -49,5 +51,17 @@ Overrides
   "prefer-template": true,
   "quotemark": [true, "single", "jsx-double"],
   "type-literal-delimiter": [true],
+
+  // codelyzer
+  "no-output-on-prefix": true,
+  "use-input-property-decorator": true,
+  "use-output-property-decorator": true,
+  "use-host-property-decorator": true,
+  "no-input-rename": true,
+  "no-output-rename": true,
+  "use-life-cycle-interface": true,
+  "use-pipe-transform-interface": true,
+  "component-class-suffix": true,
+  "directive-class-suffix": true,
 }
 ```

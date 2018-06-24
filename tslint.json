@@ -1,5 +1,6 @@
 {
-  "extends": ["tslint:recommended", "tslint-config-prettier"],
+  "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"],
+  "rulesDirectory": "codelyzer",
   "rules": {
     "cyclomatic-complexity": [true, 10],
     "interface-name": false,
@@ -25,6 +26,17 @@
     "prefer-object-spread": true,
     "prefer-template": true,
     "quotemark": [true, "single", "jsx-double"],
-    "type-literal-delimiter": [true]
+    "type-literal-delimiter": [true],
+
+    "no-output-on-prefix": true,
+    "use-input-property-decorator": true,
+    "use-output-property-decorator": true,
+    "use-host-property-decorator": true,
+    "no-input-rename": true,
+    "no-output-rename": true,
+    "use-life-cycle-interface": true,
+    "use-pipe-transform-interface": true,
+    "component-class-suffix": true,
+    "directive-class-suffix": true
   }
 }
