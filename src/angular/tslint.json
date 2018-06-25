@@ -4,7 +4,7 @@
   "rules": {
     "cyclomatic-complexity": [true, 20],
     "interface-name": false,
-    "member-access": [true],
+    "member-access": [false],
     "member-ordering": [
       true,
       {
@@ -24,7 +24,6 @@
     "prefer-object-spread": true,
     "prefer-template": true,
     "quotemark": [true, "single", "jsx-double"],
-    "type-literal-delimiter": [true],
 
     "no-output-on-prefix": true,
     "use-input-property-decorator": true,
