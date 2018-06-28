@@ -4,7 +4,7 @@
   "rules": {
     "cyclomatic-complexity": [true, 20],
     "interface-name": false,
-    "member-access": [true],
+    "member-access": [false],
     "member-ordering": [
       true,
       {
